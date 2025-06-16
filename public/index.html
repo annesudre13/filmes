@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CinePipoca</title>
+    <link rel="stylesheet" href="./assets/css/index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="logo" onclick="window.location.href = './index.html'">
+          CinePipoca
+        </h1>
+        <nav class="nav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Filmes</a></li>
+            <li><a href="./generos.html">Generos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main-content">
+      <section class="hero">
+        <div class="hero-text">
+          <h2>Bem vindo ao CinePipoca!</h2>
+          <p>Descubra os filmes mais vistos ao redor do mundo</p>
+          <button class="cta-button">Explore agora</button>
+        </div>
+      </section>
+      <section class="movie-gallery">
+        <h2>Filmes</h2>
+        <div class="gallery">
+
+        </div>
+      </section>
+    </main>
+    <div class="modal" id="addMovieModal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h2>Adicionar Novo Filme</h2>
+        <form id="addMovieForm">
+          <label for="movieTitle">Título:</label>
+          <input type="text" id="movieTitle" name="movieTitle" required />
+          <label for="movieImage">URL da Imagem:</label>
+          <input type="url" id="movieImage" name="movieImage" required />
+          <button type="submit" class="cta-button">Adicionar</button>
+        </form>
+      </div>
+    </div>
+    <footer class="footer">
+      <p>&copy; 2025 CinePipoca. Todos os direitos reservados.</p>
+    </footer>
+    <script src="./assets/scripts/app.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+{
+  "filmes": [
+    {
+      "id": "1",
+      "title": "Ação Explosiva",
+      "image": "./assets/images/mov1.jpg",
+      "description": "Um agente secreto embarca em uma missão perigosa para salvar o mundo.",
+      "genre": "Ação",
+      "releaseDate": "2025-06-01"
+    },
+    {
+      "id": "2",
+      "title": "Drama Profundo",
+      "image": "./assets/images/mov2.jpg",
+      "description": "Uma história emocionante sobre amor, perda e redenção.",
+      "genre": "Drama",
+      "releaseDate": "2025-05-15"
+    },
+    {
+      "id": "3",
+      "title": "Comédia Sem Limites",
+      "image": "./assets/images/mov3.jpg",
+      "description": "Prepare-se para rir sem parar com esta comédia hilária.",
+      "genre": "Comédia",
+      "releaseDate": "2025-04-20"
+    },
+    {
+      "id": "4",
+      "title": "Mistério Sombrio",
+      "image": "./assets/images/mov4.jpg",
+      "description": "Um detetive investiga um caso intrigante cheio de reviravoltas.",
+      "genre": "Mistério",
+      "releaseDate": "2025-03-10"
+    },
+    {
+      "id": "5",
+      "title": "Ficção Científica Épica",
+      "image": "./assets/images/mov5.jpg",
+      "description": "Uma jornada intergaláctica que desafia os limites da imaginação.",
+      "genre": "Ficção Científica",
+      "releaseDate": "2025-07-01"
+    }
+  ],
+  "generos": [
+    "Ação",
+    "Drama",
+    "Comédia",
+    "Mistério",
+    "Ficção Científica"
+  ]
+}
